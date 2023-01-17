@@ -72,6 +72,28 @@
             border-radius: 8px;
             border-radius: 8px;
         }
+        .h2{
+          text-align: center;
+          margin-top: 2%;
+          margin-left: 40%;
+          margin-right: 40%;
+          box-shadow: 8px 8px 8px black;
+        }
+        .img-area{
+          background-image: url("Images/entrance.jpg");
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-position: center center;
+          height: 100vh;
+          position: fixed;
+          left: 0;
+          right: 0;
+          z-index: -1;
+          filter: blur(5px);
+          -webkit-filter: blur(5px);
+          background-color: rgba(0,0,0,.6);
+          background-blend-mode: multiply;
+       }
         .login-card{
            box-shadow: 0px 0px 10px 5px black;
            background-color: transparent;
